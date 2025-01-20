@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  transition: background-color 1s ease-out;
+}
+.flexcontainer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+}
+
+#quote-box{
+  display: inline-block;
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+  border: none; 
+  background-color: white;
+  border-radius: 15px;
+  transition: background-color 1s ease-out;
+}
+
+#text{
+  color: transparent;
+  font-size: xx-large;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  transition: color 1s ease-out , opacity 1s ease-out;
+}
+
+
+#author{
+  color: rgb(202, 53, 53);
+  font-size: large;
+  text-align: right;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  transition: color 1s ease-out , opacity 1s ease-out;
+}
+#new-quote{
+  padding: 15px 10px 15px 13px;
+  height: 60px;
+  width: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-size: medium;
+  background-color:  black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 1s ease-out;
+}
+.buttons{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon{
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+
